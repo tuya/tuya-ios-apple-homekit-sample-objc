@@ -23,7 +23,7 @@ You need to have a HomeKit-enabled Tuya device.
 sudo gem install cocoapods
 pod setup
 ```
-**Note:** Be sure to add this spec source to your podfile, because the spec of `TuyaSmartAppleDeviceKit` was only being uploaded this spec source.
+**Note:** Be sure to add this spec source to your podfile, because the spec of `TuyaSmartAppleDeviceKit` was only being uploaded to this spec source.
 ```ruby
 source 'https://registry.code.tuya-inc.top/tuyaIOS/TYSpecs.git'
 ```
