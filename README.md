@@ -1,6 +1,6 @@
 # Tuya Apple HomeKit Sample for Objective-C
 
-This sample demonstrates how to quickly integrate HomeKit functionality via SDK. You will know how to use the SDK through this sample, which mainly includes HomeKit data loading, data updating, device adding and device binding to the cloud. Of course you can also see the characteristics of Tuya that support Apple HomeKit devices.
+This sample demonstrates how to quickly integrate HomeKit functionality via SDK. The TuyaSmartAppleDeviceKit module mainly includes the ability to manage HomeKit data from Apple's 'Home' app and bind Apple devices directly to the Tuya Cloud. The advantages are faster integration with the Apple HomeKit framework and a simple interface for binding devices to the Tuya Cloud, getting device information, etc.
 
 If you want to support HomeKit in your own projects, you must complete two steps in advance:
 -  Add an NSHomeKitUsageDescription key with a string value in the app's Info.plist explaining to the user how the app uses this data.
