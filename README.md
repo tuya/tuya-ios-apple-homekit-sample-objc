@@ -23,6 +23,11 @@ You need to have a HomeKit-enabled Tuya device.
 sudo gem install cocoapods
 pod setup
 ```
+## note
+This sample dependency on the Tuya private source:
+```bash
+source 'https://registry.code.tuya-inc.top/tuyaIOS/TYSpecs.git'
+```
 
 2. Clone or download this sample, change the directory to the one that includes **Podfile**, and then run the following command:
 
