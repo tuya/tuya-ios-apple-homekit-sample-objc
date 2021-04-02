@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  TuyaAppSDKSample-iOS-ObjC
+//
+//  Copyright (c) 2014-2021 Tuya Inc. (https://developer.tuya.com/)
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <TuyaSmartHomeKit/TuyaSmartKit.h>
+#import "AppleDeviceKitManager.h"
+#import "AppleDeviceUIModel.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "Alert.h"
+
+#endif /* PrefixHeader_pch */

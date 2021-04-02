@@ -1,0 +1,90 @@
+
+/* Class = "UILabel"; text = "UUID"; ObjectID = "03L-4R-rrL"; */
+"03L-4R-rrL.text" = "UUID";
+
+/* Class = "UILabel"; text = "isBridged"; ObjectID = "5Lp-wo-kiu"; */
+"5Lp-wo-kiu.text" = "是否被桥接";
+
+/* Class = "UILabel"; text = "Device ID"; ObjectID = "6a8-Kw-hv5"; */
+"6a8-Kw-hv5.text" = "设备 ID";
+
+/* Class = "UILabel"; text = "Here is a simulated display of the HomeKit setup code when adding device."; ObjectID = "6iy-qY-9nq"; */
+"6iy-qY-9nq.text" = "这里仅仅是模拟添加设备的时候展示 HomeKit 设置代码";
+
+/* Class = "UITableViewSection"; headerTitle = "Tuya Characteristic"; ObjectID = "7qr-h9-KR6"; */
+"7qr-h9-KR6.headerTitle" = "涂鸦自定义设备特征";
+
+/* Class = "UILabel"; text = "isReachable"; ObjectID = "JOE-Gh-JCD"; */
+"JOE-Gh-JCD.text" = "可连接";
+
+/* Class = "UILabel"; text = "Cloud Binding"; ObjectID = "MGP-Kl-gdB"; */
+"MGP-Kl-gdB.text" = "云绑定状态";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "MOg-27-JUj"; */
+"MOg-27-JUj.text" = "Detail";
+
+/* Class = "UIBarButtonItem"; title = "add device"; ObjectID = "P9V-xq-2Xk"; */
+"P9V-xq-2Xk.title" = "添加设备";
+
+/* Class = "UITableViewSection"; headerTitle = "Only Binded"; ObjectID = "Tnr-V6-52T"; */
+"Tnr-V6-52T.headerTitle" = "仅已绑定的设备";
+
+/* Class = "UILabel"; text = "HomeKit Setup Code"; ObjectID = "U1s-aE-u3W"; */
+"U1s-aE-u3W.text" = "HomeKit Setup Code";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "U9Q-dV-Ik2"; */
+"U9Q-dV-Ik2.text" = "Detail";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "WVh-fo-Rfz"; */
+"WVh-fo-Rfz.text" = "Detail";
+
+/* Class = "UILabel"; text = "It is actually to be used for device that is binded to Tuya Cloud but not added to home"; ObjectID = "YFy-6q-5L2"; */
+"YFy-6q-5L2.text" = "实际一般用来将已绑定云的设备快捷添加到苹果'家庭'App";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Z2n-7F-pQT"; */
+"Z2n-7F-pQT.text" = "Detail";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "ZJe-MC-Oar"; */
+"ZJe-MC-Oar.text" = "Detail";
+
+/* Class = "UIBarButtonItem"; title = "bind"; ObjectID = "dqe-bC-PLs"; */
+"dqe-bC-PLs.title" = "绑定";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "duK-hm-S9B"; */
+"duK-hm-S9B.text" = "Detail";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "eq2-fg-R3k"; */
+"eq2-fg-R3k.text" = "Detail";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "gbT-J8-3QJ"; */
+"gbT-J8-3QJ.text" = "Detail";
+
+/* Class = "UITableViewSection"; headerTitle = "basic"; ObjectID = "iyU-ck-Y8d"; */
+"iyU-ck-Y8d.headerTitle" = "基本";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "mq4-lu-RaF"; */
+"mq4-lu-RaF.text" = "Detail";
+
+/* Class = "UILabel"; text = "isTuyaDevice"; ObjectID = "oFA-hP-Ks6"; */
+"oFA-hP-Ks6.text" = "涂鸦设备";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "pQu-J2-4WJ"; */
+"pQu-J2-4WJ.text" = "Title";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "rny-2b-BOa"; */
+"rny-2b-BOa.text" = "Detail";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "tLx-8m-yFQ"; */
+"tLx-8m-yFQ.text" = "Detail";
+
+/* Class = "UILabel"; text = "Token"; ObjectID = "uUg-Bj-Drb"; */
+"uUg-Bj-Drb.text" = "Token";
+
+/* Class = "UILabel"; text = "Click to add display code"; ObjectID = "vKR-3g-Evy"; */
+"vKR-3g-Evy.text" = "Click to add display code";
+
+/* Class = "UILabel"; text = "Product ID"; ObjectID = "xds-2q-2l8"; */
+"xds-2q-2l8.text" = "产品 ID";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "yL1-wd-mwx"; */
+"yL1-wd-mwx.text" = "Detail";
