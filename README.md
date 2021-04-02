@@ -1,14 +1,14 @@
 # Tuya Apple HomeKit Sample for Objective-C
 
-This sample demonstrates how to quickly integrate HomeKit functionality via SDK. The TuyaSmartAppleDeviceKit module mainly includes the ability to manage HomeKit data from Apple's 'Home' app and bind Apple devices directly to the Tuya Cloud. The advantages are faster integration with the Apple HomeKit framework and a simple interface for binding devices to the Tuya Cloud, getting device information, etc.
+This sample describes how to quickly integrate HomeKit functionality by using an SDK. The TuyaSmartAppleDeviceKit module allows you to manage HomeKit data from Apple's 'Home' app and bind Apple devices directly to the Tuya Cloud. The module features faster integration with the Apple HomeKit framework. A simple interface is provided for you to bind devices to the Tuya Cloud and get device information.
 
-If you want to support HomeKit in your own projects, you must complete two steps in advance:
--  Add an NSHomeKitUsageDescription key with a string value in the app's Info.plist explaining to the user how the app uses this data.
-- Add HomeKit capability to enabling HomeKit allows your app interact with HomeKit accessories and create home configrations.
+To support HomeKit in your projects, perform the following steps:
+-  Add an NSHomeKitUsageDescription key with a string value in the app's Info.plist that explains how the app uses this data.
+- Add the HomeKit capability. HomeKit can be used to connect your app to HomeKit accessories and create home configurations.
 
-You need to have a HomeKit-enabled Tuya device.
+A HomeKit-enabled Tuya device is required.
 
-<img src="https://github.com/tuya/tuya-ios-apple-homekit-sample-objc/blob/master/screenshot.png" width="30%" />
+<img src="https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/goat/20210402/88f33970589646d1af4d868909cac1af.png" width="30%" />
 
 ## Prerequisites
 
@@ -17,13 +17,13 @@ You need to have a HomeKit-enabled Tuya device.
 
 ## Use the sample
 
-1. The Tuya iOS HomeSDK is distributed through [CocoaPods](http://cocoapods.org/) and other dependencies in this sample. Make sure that you have installed CocoaPods. If not, run the following command to install CocoaPods first:
+1. The Tuya iOS HomeSDK is distributed based on [CocoaPods](http://cocoapods.org/) and other dependencies in this sample. Make sure that you have installed CocoaPods. If not, run the following command to install CocoaPods first:
 
 ```bash
 sudo gem install cocoapods
 pod setup
 ```
-**Note:** Be sure to add this spec source to your podfile, because the spec of `TuyaSmartAppleDeviceKit` was only being uploaded to this spec source.
+**Note:** Make sure that this spec source is added to your podfile. The spec of `TuyaSmartAppleDeviceKit` is only uploaded to this spec source.
 ```ruby
 source 'https://registry.code.tuya-inc.top/tuyaIOS/TYSpecs.git'
 ```
@@ -34,15 +34,15 @@ source 'https://registry.code.tuya-inc.top/tuyaIOS/TYSpecs.git'
 pod install
 ```
 
-3. This sample requires you to have a pair of keys and a security image from [Tuya IoT Platform](https://developer.tuya.com/), and register a developer account if you don't have one. Then, perform the following steps:
+1. This sample requires you to have a pair of keys and a security image from [Tuya IoT Platform](https://iot.tuya.com/), and register a developer account if you do not have one. Then, perform the following steps:
 
-   1. Log in to the [Tuya IoT platform](https://iot.tuya.com/). In the left-side navigation pane, choose **App** > **SDK Development**.
+   1. Log in to the [Tuya IoT platform](https://iot.tuya.com//). In the left-side navigation pane, choose **App** > **SDK Development**.
    2. Click **Create** to create an app.
    3. Fill in the required information. Make sure that you enter the valid Bundle ID. It cannot be changed afterward.
    4. You can find the AppKey, AppSecret, and security image under the **Obtain Key** tag.
 
-4. Open the `TuyaAppSDKSample-iOS-ObjC.xcworkspace` pod generated for you.
-5. Fill in the AppKey and AppSecret in the **AppKey.h** file.
+2. Open the `TuyaAppSDKSample-iOS-ObjC.xcworkspace` pod that is generated for you.
+3. Enter the AppKey and AppSecret in the **AppKey.h** file.
 
 ```objective-c
 #define APP_KEY @"<#AppKey#>"
