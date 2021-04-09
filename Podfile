@@ -1,14 +1,12 @@
-#source 'https://cdn.cocoapods.org/'
-#source 'https://github.com/TuyaInc/TuyaPublicSpecs.git'
-source 'https://cocoapods.tuya-inc.top:7799/'
-source 'https://registry.code.tuya-inc.top/tuyaIOS/TYSpecs.git'
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/TuyaInc/TuyaPublicSpecs.git'
 
 target 'TuyaAppSDKSample-iOS-ObjC' do
   pod 'Masonry'
   pod 'SVProgressHUD'
   pod 'SDWebImage/Core','4.4.3'
   pod 'TuyaSmartHomeKit'
-  pod 'TuyaSmartAppleDeviceKit', '1.0.0-rc8'
+  pod 'TuyaSmartAppleDeviceKit', '1.0.0'
 end
 
 post_install do |installer|

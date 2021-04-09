@@ -26,14 +26,18 @@
     if ([self.emailAddressTextField.text containsString:@"@"]) {
         [[TuyaSmartUser sharedInstance] sendVerifyCodeByRegisterEmail:self.countryCodeTextField.text email:self.emailAddressTextField.text success:^{
             [Alert showBasicAlertOnVC:self withTitle:@"Verification Code Sent Successfully" message:@"Please check your email for the code."];
-
+            
         } failure:^(NSError *error) {
             [Alert showBasicAlertOnVC:self withTitle:@"Failed to Sent Verification Code" message:error.localizedDescription];
         }];
     } else {
-        [[TuyaSmartUser sharedInstance] sendVerifyCode:self.countryCodeTextField.text phoneNumber:self.emailAddressTextField.text type:2 success:^{
+        [[TuyaSmartUser sharedInstance] sendVerifyCodeWithUserName:self.emailAddressTextField.text
+                                                            region:nil
+                                                       countryCode:self.countryCodeTextField.text
+                                                              type:2
+                                                           success:^{
             [Alert showBasicAlertOnVC:self withTitle:@"Verification Code Sent Successfully" message:@"Please check your message for the code."];
-
+            
         } failure:^(NSError *error) {
             [Alert showBasicAlertOnVC:self withTitle:@"Failed to Sent Verification Code" message:error.localizedDescription];
         }];
